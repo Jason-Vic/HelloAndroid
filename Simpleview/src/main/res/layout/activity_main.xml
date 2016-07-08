@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.simpleview.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="Hello World!"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/AcTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionThreshold="3"
+        android:hint="Input Here"
+        android:textSize="20sp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/MacTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Input"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <ImageButton
+        android:id="@+id/imgBth1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="Img"
+        android:src="@mipmap/ic_launcher" />
+
+    <ToggleButton
+        android:checked="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOff="Off"
+        android:textOn="On" />
+</LinearLayout>
