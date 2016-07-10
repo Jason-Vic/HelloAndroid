@@ -48,9 +48,39 @@
         android:src="@mipmap/ic_launcher" />
 
     <ToggleButton
-        android:checked="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:checked="false"
         android:textOff="Off"
         android:textOn="On" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ckb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Man"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="WoMan"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="UnKnow"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
 </LinearLayout>

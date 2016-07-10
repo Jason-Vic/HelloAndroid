@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HelloAndroid2.iml" filepath="$PROJECT_DIR$/HelloAndroid2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HelloWorld/app.iml" filepath="$PROJECT_DIR$/HelloWorld/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Simpleview/simpleview.iml" filepath="$PROJECT_DIR$/Simpleview/simpleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloAndroid.iml" filepath="$PROJECT_DIR$/HelloAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simpleview/Simpleview.iml" filepath="$PROJECT_DIR$/Simpleview/Simpleview.iml" />
     </modules>
   </component>
 </project>
