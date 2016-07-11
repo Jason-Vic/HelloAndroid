@@ -10,6 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/HelloWorld" />
             <option value="$PROJECT_DIR$/Listview" />
+            <option value="$PROJECT_DIR$/Picker" />
             <option value="$PROJECT_DIR$/Simpleview" />
           </set>
         </option>
@@ -18,6 +19,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/HelloWorld" />
             <option value="$PROJECT_DIR$/Listview" />
+            <option value="$PROJECT_DIR$/Picker" />
             <option value="$PROJECT_DIR$/Simpleview" />
           </set>
         </option>
