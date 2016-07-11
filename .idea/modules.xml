@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/Listview/Listview.iml" filepath="$PROJECT_DIR$/Listview/Listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/Picker/picker.iml" filepath="$PROJECT_DIR$/Picker/picker.iml" />
       <module fileurl="file://$PROJECT_DIR$/Simpleview/Simpleview.iml" filepath="$PROJECT_DIR$/Simpleview/Simpleview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spinner/Spinner.iml" filepath="$PROJECT_DIR$/Spinner/Spinner.iml" />
     </modules>
   </component>
 </project>

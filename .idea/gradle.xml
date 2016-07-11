@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/Listview" />
             <option value="$PROJECT_DIR$/Picker" />
             <option value="$PROJECT_DIR$/Simpleview" />
+            <option value="$PROJECT_DIR$/Spinner" />
           </set>
         </option>
         <option name="myModules">
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/Listview" />
             <option value="$PROJECT_DIR$/Picker" />
             <option value="$PROJECT_DIR$/Simpleview" />
+            <option value="$PROJECT_DIR$/Spinner" />
           </set>
         </option>
       </GradleProjectSettings>

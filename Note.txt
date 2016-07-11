@@ -31,7 +31,8 @@ Picker: Calendar对象get到的月份要加一.
     DatePickerDialog(上下文,OnDateSetListener,年,月,日);
     TimePickerDialog(上下文,OnTimeSetListener,时,分,是否24小时制);
 GridView: onItemClick判断点击事件
-    horizontalSpacing水平间距 verticalSpacing垂直间距 numColumns一行有几列
+    horizontalSpacing水平间距 verticalSpacing垂直间距 numColumns一行有几列.
+Spinner: ArrayAdapter和SimpleAdapter.
 
 
 
