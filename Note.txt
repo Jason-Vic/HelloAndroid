@@ -1,12 +1,12 @@
 ﻿7.6 
-安装eclipse jdk genymotion,eclipse环境有点问题,丢弃了,继续用AS。AS的SDK更新了一下,同步了好久。
+安装eclipse jdk genymotion,eclipse环境有点问题,丢弃了,继续用AS. AS的SDK更新了一下,同步了好久.
 
 7.7
-Button 和 ImageButton,Button没有src属性,ImageButton没有text属性,ImageButton的bg和src两个属性是分开来的。
-TextView: 当内容超出屏幕后设置ellipsize=marquee focusablefocusable=true focusableInTouchMode=true singline=true来实现重复滚动效果。
-AutoCompleteTextView/MultiAutoCompleteTextView: 属性: completionThreshold --输入多少字符时自动匹配。ArrayAdapter来添加内同,Mac需要设置分隔符。
-    方法: MAc.setTokenizer(new Mac...CommaTokenizer);以逗号为分隔符。
-ToggleButton,用来显示选中为选中的按扭。checked/textOff/textOn。OncheckedChangeListener监听。
+Button 和 ImageButton,Button没有src属性,ImageButton没有text属性,ImageButton的bg和src两个属性是分开来的.
+TextView: 当内容超出屏幕后设置ellipsize=marquee focusablefocusable=true focusableInTouchMode=true singline=true来实现重复滚动效果.
+AutoCompleteTextView/MultiAutoCompleteTextView: 属性: completionThreshold --输入多少字符时自动匹配. ArrayAdapter来添加内同,Mac需要设置分隔符.
+    方法: MAc.setTokenizer(new Mac...CommaTokenizer);以逗号为分隔符.
+ToggleButton,用来显示选中为选中的按扭.checked/textOff/textOn.OncheckedChangeListener监听.
 
 7.8
 Nothing
@@ -15,21 +15,23 @@ Nothing
 Nothing
 
 7.10
-GitHub配置好了。
-CheckBox,可以选中可以取消。onCheckedChangListener监听状态改变。
-RadioGroup,一个group里面的RadioButton只能同时选中一个。
+GitHub配置好了.
+CheckBox,可以选中可以取消。onCheckedChangListener监听状态改变.
+RadioGroup,一个group里面的RadioButton只能同时选中一个.
 
 7.11
-ListView: ArrayAdapter和SimpleAdapter。
+ListView: ArrayAdapter和SimpleAdapter
     ArrayAdapter(上下文,每一项的样式布局文件,数据源);
     SimpleAdapter(上下文,数据源Map,每一项的样式布局文件,Map的键名,对应View的ID);
     setOnItemClickListener: Position
     setOnScrollListener: SCROLL_STATE_FLING|SCROLL_STATE_IDLE|SCROLL_STATE_TOUCH_SCROLL
-Picker: Calendar对象get到的月份要加一。
+Picker: Calendar对象get到的月份要加一.
     DatePicker: init(年,月,日,DateChangeListener);
     TimePicker: setOnTimeChangedListener(OnTimeChangedListener);
     DatePickerDialog(上下文,OnDateSetListener,年,月,日);
     TimePickerDialog(上下文,OnTimeSetListener,时,分,是否24小时制);
+GridView: onItemClick判断点击事件
+    horizontalSpacing水平间距 verticalSpacing垂直间距 numColumns一行有几列
 
 
 
