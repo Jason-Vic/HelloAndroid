@@ -33,6 +33,15 @@ Picker: Calendar对象get到的月份要加一.
 GridView: onItemClick判断点击事件
     horizontalSpacing水平间距 verticalSpacing垂直间距 numColumns一行有几列.
 Spinner: ArrayAdapter和SimpleAdapter.
+ProgressBar: 有些方法都已过时,后面会写自定义的ProgressBar.
+    requestWindowFeature(Window.FEATURE_PROGRESS);
+    requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
+    setProgressBarVisibility(Bool);
+    setProgressBarIndeterminateVisibility(Bool);
+    setProgress(int);max=10000;
+    setSecondaryProgress(int);
+ProgressDialog: 弹出一个进度框.
+    setProgressStyle|setTitle|setMessage|setIcon|incrementProgressBy|setIndeterminate|setButton|setCancelable
 
 
 
