@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/ProgressBar" />
             <option value="$PROJECT_DIR$/Simpleview" />
             <option value="$PROJECT_DIR$/Spinner" />
+            <option value="$PROJECT_DIR$/WebView" />
           </set>
         </option>
         <option name="myModules">
@@ -27,6 +28,7 @@
             <option value="$PROJECT_DIR$/ProgressBar" />
             <option value="$PROJECT_DIR$/Simpleview" />
             <option value="$PROJECT_DIR$/Spinner" />
+            <option value="$PROJECT_DIR$/WebView" />
           </set>
         </option>
       </GradleProjectSettings>

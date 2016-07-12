@@ -33,6 +33,8 @@ Picker: Calendar对象get到的月份要加一.
 GridView: onItemClick判断点击事件
     horizontalSpacing水平间距 verticalSpacing垂直间距 numColumns一行有几列.
 Spinner: ArrayAdapter和SimpleAdapter.
+
+7.12
 ProgressBar: 有些方法都已过时,后面会写自定义的ProgressBar.
     requestWindowFeature(Window.FEATURE_PROGRESS);
     requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
@@ -41,7 +43,15 @@ ProgressBar: 有些方法都已过时,后面会写自定义的ProgressBar.
     setProgress(int);max=10000;
     setSecondaryProgress(int);
 ProgressDialog: 弹出一个进度框.
-    setProgressStyle|setTitle|setMessage|setIcon|incrementProgressBy|setIndeterminate|setButton|setCancelable
+    setProgressStyle|setTitle|stMessage|setIcon|incrementProgressBy|setIndeterminate|setButton|setCancelable
+
+7.13
+WebView: 加载网页,具体看代码
+    setWebViewClient: 使用view加载网页不使用外部浏览器
+    setCacheMode: 使用缓存
+    setWebChromeClient: 提示网页进度
+    onKeyDown: 操作网页返回
+
 
 
 

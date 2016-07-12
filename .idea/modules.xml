@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/ProgressBar/ProgressBar.iml" filepath="$PROJECT_DIR$/ProgressBar/ProgressBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/Simpleview/Simpleview.iml" filepath="$PROJECT_DIR$/Simpleview/Simpleview.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spinner/Spinner.iml" filepath="$PROJECT_DIR$/Spinner/Spinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebView/WebView.iml" filepath="$PROJECT_DIR$/WebView/WebView.iml" />
     </modules>
   </component>
 </project>
