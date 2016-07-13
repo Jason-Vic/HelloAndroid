@@ -71,6 +71,11 @@ Fragment: 碎片，便于管理Activity页面
     传递数据:
         Fragment->Activity  getActivity()所在的Activity
         Activity->Fragment  findFragmentById()|findFragmentByTag()获取Fragment.
+ViewPager: 滑动页面式切换布局
+    PagerTabStrip|PagerTitleStrip用来添加标题卡.
+    PagerAdapter: getCount|isViewFromObject(arg0==arg1)|instantiateItem(实例一个页卡)|destroyItem(container.removeView)|getPageTitle
+    FragmentPagerAdapter: getItem|getCount
+    FragmentStatePagerAdapter: instantiateItem|destroyItem这两个方法不用重写.
 
 
 
