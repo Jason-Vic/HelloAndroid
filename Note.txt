@@ -52,6 +52,26 @@ WebView: 加载网页,具体看代码
     setWebChromeClient: 提示网页进度
     onKeyDown: 操作网页返回
 
+Fragment: 碎片，便于管理Activity页面
+    静态加载: 1. Class extends Fragment 2.inflate view 3.<fragment标签>
+    动态加载: 1. Class extends Fragment 2.inflate view 3.new->getFragmentManager->beginTransaction->add->commit
+    在fragment标签中要指定id|tag|name*,动态加载时可以用addToBackStack来返回上一状态.
+    生命周期:
+        onAttach()          当Fragment被添加到Activity时调用,且只调用一次
+        onCreate()          创建Fragment时被调用,一次
+        onActivityCreated() 当Fragment所在的Activity创建完成时被调用
+        onCreateView()      每次创建都会绘制Fragment的view时调用
+        onStart()           启动Fragment时调用 -|
+        onResume()          恢复Fragment时回调 -|
+        onPause()           暂停Fragment时
+        onStop()            停止Fragment时
+        onDestroyView()     销毁Fragment所包含的view时
+        onDestroy()         销毁Fragment时
+        onDetach()          Fragment从所在的Activity删除时
+    传递数据:
+        Fragment->Activity  getActivity()所在的Activity
+        Activity->Fragment  findFragmentById()|findFragmentByTag()获取Fragment.
+
 
 
 
