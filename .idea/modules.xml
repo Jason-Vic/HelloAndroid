@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Frament/Frament.iml" filepath="$PROJECT_DIR$/Frament/Frament.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gallery/Gallery.iml" filepath="$PROJECT_DIR$/Gallery/Gallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/GridView/GridView.iml" filepath="$PROJECT_DIR$/GridView/GridView.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloAndroid.iml" filepath="$PROJECT_DIR$/HelloAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />

@@ -88,6 +88,20 @@ Viewflipper: 页面轮换效果,感觉不如iewPager好用
     setInAnimation 入场动画
     setOutAnimation 出场动画
     startFlipping 开始轮换
+Gallery: 画廊,显示图片,配合ImageSwitcher效果比较好
+    setScaleType()      设置图片填充方式
+    使用BaseAdapter来自定义适配器
+        getCount()      适配器传入的数据源个数
+        getItem()       获取子项
+        getItemId()     获取子项ID
+        getView()       获取View对象
+    ImageSwitcher   图片切换器
+        setFactory()        设置存储图片的工厂
+        setInAnimation()    设置图片进入动画
+        setOutAnimation()   设置图片出场动画
+        onItemSelected()    当子项被选择
+        onNothingSelected() 当没有项被选择
+        makeView()          生成一个View
 
 
 

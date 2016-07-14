@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Frament" />
+            <option value="$PROJECT_DIR$/Gallery" />
             <option value="$PROJECT_DIR$/GridView" />
             <option value="$PROJECT_DIR$/HelloWorld" />
             <option value="$PROJECT_DIR$/Listview" />
@@ -26,6 +27,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Frament" />
+            <option value="$PROJECT_DIR$/Gallery" />
             <option value="$PROJECT_DIR$/GridView" />
             <option value="$PROJECT_DIR$/HelloWorld" />
             <option value="$PROJECT_DIR$/Listview" />
