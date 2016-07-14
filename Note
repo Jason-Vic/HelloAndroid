@@ -102,8 +102,12 @@ Gallery: 画廊,显示图片,配合ImageSwitcher效果比较好
         onItemSelected()    当子项被选择
         onNothingSelected() 当没有项被选择
         makeView()          生成一个View
-
-
+SeekBar: 拖动条
+    setmax()                设置最大进度
+    setprogress()           设置当前进度
+    onProgressChanged()     当进度改变时
+    onStartTrackingTouch()  当开始拖动时
+    onStopTrackingTouch()   当停止拖动时
 
 
 
