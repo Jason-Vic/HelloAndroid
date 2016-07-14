@@ -108,6 +108,10 @@ SeekBar: 拖动条
     onProgressChanged()     当进度改变时
     onStartTrackingTouch()  当开始拖动时
     onStopTrackingTouch()   当停止拖动时
+ListView的BaseAdapter
+    逗比式: 每一次都要解析layout文件,每一次都要通过ID找到控件,最不推荐
+    普通式: 每一次不需要解析layout文件,但每一次都要通过ID找到控件,一般
+    文艺式: 通过ViewHolder的方法,来缓存View,每一次不需要解析layout文件,每一次也不需要通过ID找到控件，推荐
 
 
 
