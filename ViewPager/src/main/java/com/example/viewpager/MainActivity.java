@@ -4,6 +4,7 @@ package com.example.viewpager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.PagerTabStrip;
+import android.support.v4.view.PagerTitleStrip;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ import java.util.List;
 public class MainActivity extends FragmentActivity implements ViewPager.OnPageChangeListener {
     private List<View> viewList;
     private ViewPager viewPager;
-    private PagerTabStrip pagerTabStrip;
+    private PagerTitleStrip pagerTitleStrip;
     private List<String> titleList;
     private List<Fragment> fragmentList;
 
@@ -59,7 +60,7 @@ public class MainActivity extends FragmentActivity implements ViewPager.OnPageCh
 //        viewPager.setAdapter(myFragmentPagerAdapter);
 
         MyFragmentStatePagerAdapter myFragmentStatePagerAdapter = new MyFragmentStatePagerAdapter
-                (getSupportFragmentManager(), fragmentList);
+                (getSupportFragmentManager(), fragmentList, titleList);
 
         viewPager.setAdapter(myFragmentStatePagerAdapter);
         viewPager.setOnPageChangeListener(this);
@@ -72,7 +73,7 @@ public class MainActivity extends FragmentActivity implements ViewPager.OnPageCh
 
     @Override
     public void onPageSelected(int position) {
-        Toast.makeText(this, (position+1)+" View", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, (position + 1) + " View", Toast.LENGTH_SHORT).show();
     }
 
     @Override
