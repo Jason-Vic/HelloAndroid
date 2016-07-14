@@ -77,6 +77,13 @@ ViewPager: 滑动页面式切换布局
     FragmentPagerAdapter: getItem|getCount
     FragmentStatePagerAdapter: instantiateItem|destroyItem这两个方法不用重写.
 
+7.14
+ScrollView: 滚动视图
+    getScrollY() 获取当前Y轴位置
+    getChildAt(0).getMeasuredHeight() 第0个元素的高度
+    scrollTo(X,Y) 移动到XY位置
+    scrollBy(X,Y) 相对于当前位置移动+X+Y位置
+
 
 
 
