@@ -83,6 +83,12 @@ ScrollView: 滚动视图
     getChildAt(0).getMeasuredHeight() 第0个元素的高度
     scrollTo(X,Y) 移动到XY位置
     scrollBy(X,Y) 相对于当前位置移动+X+Y位置
+Viewflipper: 页面轮换效果,感觉不如iewPager好用
+    flipInterval 显示间隔
+    setInAnimation 入场动画
+    setOutAnimation 出场动画
+    startFlipping 开始轮换
+
 
 
 
