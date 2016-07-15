@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/startImgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startImage"
+        android:text="StartImg"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/startProButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startPro"
+        android:text="StartPro"
+        android:textSize="30sp" />
+
+</LinearLayout>
