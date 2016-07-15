@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ActivityLifeCycle" />
+            <option value="$PROJECT_DIR$/AsyncLoad" />
             <option value="$PROJECT_DIR$/AsyncTask" />
             <option value="$PROJECT_DIR$/BaseAdapter" />
             <option value="$PROJECT_DIR$/Frament" />
@@ -31,6 +32,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/ActivityLifeCycle" />
+            <option value="$PROJECT_DIR$/AsyncLoad" />
             <option value="$PROJECT_DIR$/AsyncTask" />
             <option value="$PROJECT_DIR$/BaseAdapter" />
             <option value="$PROJECT_DIR$/Frament" />

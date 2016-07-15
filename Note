@@ -126,6 +126,16 @@ AsyncTask 异步任务
 	onProgressUpdate() 在doInBackground()调用publishProgress()方法更新任务的执行进度后,就会触发该方法
 	cancel() isCancelled()来实现对一个AsyncTask进行取消
 	Tips:必须在UI线程中创建AsyncTask的实例和调用execute方法,重写的方法自动调用不要手动调用,每个AsyncTask只能被执行一次多次调用会引发异常
+AsyncLoad 异步加载,代码量太大,理解有点困难,跟着视频敲了一遍,功能实现了,需要用的时候拿过来使用.
+    通过异步加载,避免线程阻塞
+    通过LruCache,将已下载的的图片放到内存中
+    通过判断ListView滑动状态,决定何时加载图片
+    不仅仅是ListView,任何控件都可以使用异步加载
+    Lru: Least Recently Uesd 近期最少使用算法
+         LruCache类实现缓存方法
+    提高效率
+        1.滑动停止后才加载可见项
+        2.滑动时,取消所有加载项
 
 
 
