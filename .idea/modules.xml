@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/ProgressBar/ProgressBar.iml" filepath="$PROJECT_DIR$/ProgressBar/ProgressBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScrollView/ScrollView.iml" filepath="$PROJECT_DIR$/ScrollView/ScrollView.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeekBar/SeekBar.iml" filepath="$PROJECT_DIR$/SeekBar/SeekBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedPreferences/SharedPreferences.iml" filepath="$PROJECT_DIR$/SharedPreferences/SharedPreferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/Simpleview/Simpleview.iml" filepath="$PROJECT_DIR$/Simpleview/Simpleview.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spinner/Spinner.iml" filepath="$PROJECT_DIR$/Spinner/Spinner.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewFlipper/ViewFlipper.iml" filepath="$PROJECT_DIR$/ViewFlipper/ViewFlipper.iml" />
