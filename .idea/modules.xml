@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Listview/Listview.iml" filepath="$PROJECT_DIR$/Listview/Listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/Picker/Picker.iml" filepath="$PROJECT_DIR$/Picker/Picker.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgressBar/ProgressBar.iml" filepath="$PROJECT_DIR$/ProgressBar/ProgressBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLiteTest/SQLiteTest.iml" filepath="$PROJECT_DIR$/SQLiteTest/SQLiteTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/ScrollView/ScrollView.iml" filepath="$PROJECT_DIR$/ScrollView/ScrollView.iml" />
       <module fileurl="file://$PROJECT_DIR$/SeekBar/SeekBar.iml" filepath="$PROJECT_DIR$/SeekBar/SeekBar.iml" />
       <module fileurl="file://$PROJECT_DIR$/SharedPreferences/SharedPreferences.iml" filepath="$PROJECT_DIR$/SharedPreferences/SharedPreferences.iml" />
