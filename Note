@@ -151,6 +151,14 @@ SQLite 轻量级,独立性,隔离性,跨平台,多语言接口,安全性
     SQLiteOpenHelper
         onCreate() 首次创建数据库时调用一次,可以把建库建表的操作放在里面
         onUpgrade() 数据库版本发生变化,自动调用
+File
+    getFilesDir() 应用数据目录
+    getCacheDir() 应用缓存目录
+    getExternalFilesDir() 创建外部文件存储目录
+    getExternalCacheDir() 创建外部缓存存储目录
+    MODE_PRIVATE 默认操作模式,代表文件为私有数据,只能被应用本身访问,会覆盖原有内容
+    MODE_APPEND 检查文件是否存在,存在则往文件内追加,否则创建新文件
+    MODE_WORLD_READABLE|MODE_WORLD_WRITEABLE 控制其他应用是否有权限读写该文件
 
 
 
