@@ -147,7 +147,10 @@ SharedPreferences
 SQLite 轻量级,独立性,隔离性,跨平台,多语言接口,安全性
     SQLiteDatabase,增删改查
     ContentValues,执行对应的SQL操作
+7.19
     SQLiteOpenHelper
+        onCreate() 首次创建数据库时调用一次,可以把建库建表的操作放在里面
+        onUpgrade() 数据库版本发生变化,自动调用
 
 
 

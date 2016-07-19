@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.webkit.WebIconDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 //        sqLiteDatabase.close();
 
 
+// ContentValues的使用
 //        SQLiteDatabase db = openOrCreateDatabase("stu.db", MODE_PRIVATE, null);
 //        db.execSQL("create table if not exists stutb (_id integer primary key autoincrement,
 // name" +
@@ -82,5 +84,19 @@ public class MainActivity extends AppCompatActivity {
 //            cursor.close();
 //        }
 //        db.close();
+
+        DBOpenHelper dbOpenHelper = new DBOpenHelper(MainActivity.this, "stuT.db");
+        SQLiteDatabase writableDatabase = dbOpenHelper.getWritableDatabase();
+        writableDatabase.execSQL("insert into stutbT(name,age,sex) values ('张三','22','男')");
+        Cursor cursor = writableDatabase.rawQuery("select * from stutbT", null);
+        if (cursor != null) {
+            while (cursor.moveToNext()) {
+                Log.d("TAG", "id:" + cursor.getInt(cursor.getColumnIndex("_id")));
+                Log.d("TAG", "name:" + cursor.getString(cursor.getColumnIndex("name")));
+                Log.d("TAG", "age:" + cursor.getInt(cursor.getColumnIndex("age")));
+                Log.d("TAG", "sex:" + cursor.getString(cursor.getColumnIndex("sex")));
+            }
+            cursor.close();
+        }
     }
 }
