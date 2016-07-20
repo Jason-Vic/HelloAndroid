@@ -159,6 +159,18 @@ File
     MODE_PRIVATE 默认操作模式,代表文件为私有数据,只能被应用本身访问,会覆盖原有内容
     MODE_APPEND 检查文件是否存在,存在则往文件内追加,否则创建新文件
     MODE_WORLD_READABLE|MODE_WORLD_WRITEABLE 控制其他应用是否有权限读写该文件
+7.20
+ContentProvider
+    其他应用访问的方法取决于下面已实现的方法
+    content://com.xxx.xxx/music/#
+    前缀表示数据受控于一个内容提供者/固定/具体操作于那个条目/通配符,具体哪个记录
+    onCreate() 在CP创建后被调用
+    query()  根据Uri查询出selection指定的条件所匹配的全部记录
+    getType() 返回当前Uri的MIME类型,如果该Uri对应的数据可能包括多条记录,那么MIME类型字符串就是以vnd.android.dir开头
+              如果该Uri对应的数据只有一条记录,该MIME类型字符串,以vnd.android.cursor.item开头
+    insert() 根据Uri插入Values对应的数据
+    delete() 根据Uri删除selection指定的条件所匹配的全部记录
+    update() 根据Uri更新selection指定的条件所匹配的全部记录
 
 
 
