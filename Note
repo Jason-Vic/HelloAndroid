@@ -158,7 +158,7 @@ File
     getExternalCacheDir() 创建外部缓存存储目录
     MODE_PRIVATE 默认操作模式,代表文件为私有数据,只能被应用本身访问,会覆盖原有内容
     MODE_APPEND 检查文件是否存在,存在则往文件内追加,否则创建新文件
-    MODE_WORLD_READABLE|MODE_WORLD_WRITEABLE 控制其他应用是否有权限读写该文件
+    MODE_WORLD_READABLE|MODE_WORLD_WRITABLE 控制其他应用是否有权限读写该文件
 7.20
 ContentProvider
     其他应用访问的方法取决于下面已实现的方法
@@ -171,6 +171,8 @@ ContentProvider
     insert() 根据Uri插入Values对应的数据
     delete() 根据Uri删除selection指定的条件所匹配的全部记录
     update() 根据Uri更新selection指定的条件所匹配的全部记录
+7.21
+TestBroadcastReceiver
 
 
 

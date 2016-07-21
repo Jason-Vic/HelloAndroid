@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/AsyncLoad/AsyncLoad.iml" filepath="$PROJECT_DIR$/AsyncLoad/AsyncLoad.iml" />
       <module fileurl="file://$PROJECT_DIR$/AsyncTask/AsyncTask.iml" filepath="$PROJECT_DIR$/AsyncTask/AsyncTask.iml" />
       <module fileurl="file://$PROJECT_DIR$/BaseAdapter/BaseAdapter.iml" filepath="$PROJECT_DIR$/BaseAdapter/BaseAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BroadcastReceiver/BroadcastReceiver.iml" filepath="$PROJECT_DIR$/BroadcastReceiver/BroadcastReceiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/ContentProvider/ContentProvider.iml" filepath="$PROJECT_DIR$/ContentProvider/ContentProvider.iml" />
       <module fileurl="file://$PROJECT_DIR$/File/File.iml" filepath="$PROJECT_DIR$/File/File.iml" />
       <module fileurl="file://$PROJECT_DIR$/Frament/Frament.iml" filepath="$PROJECT_DIR$/Frament/Frament.iml" />
