@@ -173,6 +173,11 @@ ContentProvider
     update() 根据Uri更新selection指定的条件所匹配的全部记录
 7.21
 TestBroadcastReceiver
+7.22
+Service
+    本地服务(Local Service)
+        应用程序内部 startService stopService stopSelf stopSelfResult bindService unbindService
+    远程服务
 
 
 
